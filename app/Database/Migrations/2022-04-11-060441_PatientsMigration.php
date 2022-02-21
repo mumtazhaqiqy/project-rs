@@ -15,46 +15,57 @@ class Patients extends Migration
             ],
             'noRekamMedis' => [
                 'type' => 'VARCHAR',
-                'constraint' => 50
+                'constraint' => 50,
+                'null' => false
             ],
             'alias' => [
                 'type' => 'VARCHAR',
-                'constraint' => 50
+                'constraint' => 50,
+                'null' => true
             ],
             'namaLengkap' => [
                 'type' => 'VARCHAR',
-                'constraint' => 200
+                'constraint' => 200,
+                'null' => false
             ],
             'tempatLahir' => [
                 'type' => 'VARCHAR',
-                'constraint' => 50
+                'constraint' => 50,
+                'null' => false
             ],
             'tanggalLahir' => [
                 'type' => 'DATE',
+                'null' => false
             ],
             'jenisKelamin' => [
                 'type' => 'VARCHAR',
-                'constraint' => 50
+                'constraint' => 50,
+                'null' => false
             ],
             'agama' => [
                 'type' => 'VARCHAR',
-                'constraint' => 50
+                'constraint' => 50,
+                'null' => false
             ],
             'statusMenikah' => [
                 'type' => 'VARCHAR',
-                'constraint' => 50
+                'constraint' => 50,
+                'null' => false
             ],
             'pendidikanTerakhir' => [
                 'type' => 'INT',
-                'constraint' => 15
+                'constraint' => 15,
+                'null' => true
             ],
             'golonganDarah' => [
                 'type' => 'VARCHAR',
-                'constraint' => 10
+                'constraint' => 10,
+                'null' => true
             ],
             'pekerjaanSekarang' => [
                 'type' => 'INT',
-                'constraint' => 10
+                'constraint' => 10,
+                'null' => true
             ],
             'alamatTinggal' => [
                 'type' => 'TEXT',
@@ -62,27 +73,33 @@ class Patients extends Migration
             ], 
             'noHandphone' => [
                 'type' => 'VARCHAR',
-                'constraint' => 20
+                'constraint' => 20,
+                'null' => false
             ],
             'ktp' => [
                 'type' => 'VARCHAR',
-                'constraint' => 30
+                'constraint' => 30,
+                'null' => false
             ],
             'bpjs' => [
                 'type' => 'VARCHAR',
-                'constraint' => 30
+                'constraint' => 30,
+                'null' => true
             ],
             'ayah' => [
                 'type' => 'VARCHAR',
-                'constraint' => 200
+                'constraint' => 200,
+                'null' => true
             ],
             'ibu' => [
                 'type' => 'VARCHAR',
-                'constraint' => 200
+                'constraint' => 200,
+                'null' => true
             ],
             'pasangan' => [
                 'type' => 'VARCHAR',
-                'constraint' => 200
+                'constraint' => 200,
+                'null' => true
             ],
             'uploadFile' => [
                 'type' => 'TEXT',
