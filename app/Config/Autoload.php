@@ -42,6 +42,7 @@ class Autoload extends AutoloadConfig
      */
     public $psr4 = [
         APP_NAMESPACE => APPPATH, // For custom app namespace
+        'MumtazHaqiqy\Codeigniter4Psr7' => APPPATH. 'ThirdParty/ci4-psr7-http-messages/src',
         'Config'      => APPPATH . 'Config',
     ];
 

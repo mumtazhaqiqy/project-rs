@@ -33,6 +33,12 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+$routes->get('api/(:any)', 'CrudApi::index');
+$routes->post('api/(:any)', 'CrudApi::index');
+$routes->put('api/(:any)', 'CrudApi::index');
+$routes->delete('api/(:any)', 'CrudApi::index');
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
