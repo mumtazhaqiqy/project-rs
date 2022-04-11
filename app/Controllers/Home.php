@@ -8,12 +8,12 @@ class Home extends BaseController
 {
     public function index(){
         $menus = [
-            ['menu' =>  'Home', 'url' => ''],
-            ['menu' =>  'About', 'url' => ''],
-            ['menu' =>  'Dropdown', 'url' => '', 'children' => [
-                ['menu' =>  'Child1', 'url' => '', 'class' => 'fas fa-code'],
-                ['menu' =>  'Child2', 'url' => '', 'class' => 'fas fa-circle'],
-                ['menu' =>  'Child3', 'url' => '', 'class' => 'fas fa-circle'],
+            ['label' =>  'Home', 'url' => ''],
+            ['label' =>  'About', 'url' => ''],
+            ['label' =>  'Dropdown', 'url' => '', 'children' => [
+                ['label' =>  'Child1', 'url' => '', 'class' => 'fas fa-code'],
+                ['label' =>  'Child2', 'url' => '', 'class' => 'fas fa-circle'],
+                ['label' =>  'Child3', 'url' => '', 'class' => 'fas fa-circle'],
                 ]
             ],            
         ];
